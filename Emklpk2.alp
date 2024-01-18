@@ -198,7 +198,7 @@ openReport(nameNewReport);]]></DestroyCode>
 			<ScaleRuler>
 				<Id>1702681698087</Id>
 				<Name><![CDATA[scale]]></Name>
-				<X>3960</X><Y>1520</Y>
+				<X>3932</X><Y>202.667</Y>
 				<PublicFlag>false</PublicFlag>
 				<PresentationFlag>false</PresentationFlag>
 				<ShowLabel>false</ShowLabel>
@@ -1073,74 +1073,6 @@ return this.entrySet().stream()
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>50</X><Y>40</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1705534744023</Id>
-					<Name><![CDATA[connector3]]></Name>
-					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>5528</X><Y>1212</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[emk_lpk_2]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[blockOptCrane]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[cranetest]]></PackageName>
-						<ClassName><![CDATA[BlockOptCrane]]></ClassName>
-						<ItemName><![CDATA[port1]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[emk_lpk_2]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[sink]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Sink]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>195</X><Y>240</Y></Point>
-						<Point><X>270</X><Y>240</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1705534744025</Id>
-					<Name><![CDATA[connector4]]></Name>
-					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>5683</X><Y>1452</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[emk_lpk_2]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[blockOptCrane]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[cranetest]]></PackageName>
-						<ClassName><![CDATA[BlockOptCrane]]></ClassName>
-						<ItemName><![CDATA[port]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[emk_lpk_2]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[source]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Source]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-120</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -2235,7 +2167,7 @@ return node;]]></Body>
 				<EmbeddedObject>
 					<Id>1705344759864</Id>
 					<Name><![CDATA[incomeTranscar]]></Name>
-					<X>3270</X><Y>-100</Y>
+					<X>4780</X><Y>-100</Y>
 					<Label><X>-50</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4195,479 +4127,6 @@ else {
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1705534743944</Id>
-					<Name><![CDATA[source]]></Name>
-					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>5533</X><Y>1442</Y>
-					<Label><X>-5</X><Y>-25</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Source]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[Source]]></ClassName>
-							<ItemName><![CDATA[1412336242928]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[arrivalType]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[self.MANUAL]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[rate]]></Name>
-							<Value Class="CodeUnitValue">
-								<Code><![CDATA[intensive]]></Code>
-								<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[interarrivalTime]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[firstArrivalMode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[firstArrivalTime]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[rateSchedule]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[modifyRate]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[rateExpression]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[arrivalSchedule]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[setAgentParametersFromDB]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[databaseTable]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[arrivalDate]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[multipleEntitiesPerArrival]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[entitiesPerArrival]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[limitArrivals]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maxArrivals]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationType]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[self.LOCATION_NODE]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationX]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationY]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationZ]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationLatitude]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationLongitude]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationGeoPlaceName]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationXYZInNetwork]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationNetwork]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationLevel]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[level]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationNode]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[node]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationAttractor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[speed]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[newEntity]]></Name>
-							<Value Class="EntityCodeValue">
-								<IsAgentEntity>true</IsAgentEntity>
-								<EntityEmbeddedObject>
-									<ActiveObjectClass>
-										<PackageName><![CDATA[cranetest]]></PackageName>
-										<ClassName><![CDATA[Task]]></ClassName>
-									</ActiveObjectClass>
-									<GenericParameterSubstitute>
-										<GenericParameterSubstituteReference>
-											<PackageName><![CDATA[cranetest]]></PackageName>
-											<ClassName><![CDATA[Task]]></ClassName>
-											<ItemName><![CDATA[1698153308570]]></ItemName>
-										</GenericParameterSubstituteReference>
-									</GenericParameterSubstitute>
-									<Parameters>
-									</Parameters>
-									<ReplicationFlag>true</ReplicationFlag>
-									<Replication Class="CodeValue">
-										<Code><![CDATA[100]]></Code>
-									</Replication>
-									<CollectionType>ARRAY_LIST_BASED</CollectionType>
-									<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-									<XCode Class="CodeValue">
-										<Code><![CDATA[0]]></Code>
-									</XCode>
-									<YCode Class="CodeValue">
-										<Code><![CDATA[0]]></Code>
-									</YCode>
-									<ZCode Class="CodeValue">
-										<Code><![CDATA[0]]></Code>
-									</ZCode>
-									<ColumnCode Class="CodeValue">
-										<Code><![CDATA[0]]></Code>
-									</ColumnCode>
-									<RowCode Class="CodeValue">
-										<Code><![CDATA[0]]></Code>
-									</RowCode>
-									<LatitudeCode Class="CodeValue">
-										<Code><![CDATA[0]]></Code>
-									</LatitudeCode>
-									<LongitudeCode Class="CodeValue">
-										<Code><![CDATA[0]]></Code>
-									</LongitudeCode>
-									<LocationNameCode Class="CodeValue">
-										<Code><![CDATA[""]]></Code>
-									</LocationNameCode>
-									<InitializationType>LOAD_FROM_DATABASE</InitializationType>
-									<InitializationDatabaseTableQuery>
-										<TableReference>
-										</TableReference>
-									</InitializationDatabaseTableQuery>
-									<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-									<QuantityColumn>
-									</QuantityColumn>
-								</EntityEmbeddedObject>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[changeDimensions]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[length]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[width]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[height]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enableCustomStartTime]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[startTime]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[addToCustomPopulation]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[population]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[pushProtocol]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[discardHangingEntities]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onBeforeArrival]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[if (self.count() == 10000){
-	pauseSimulation();
-}]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onAtExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.dateCreate = date();
-agent.targetPlaceForAgent = node1;
-/*if (isNearestTargetNode){
-	agent.targetPlaceForAgent = getNearestTargetNode(agent);
-}
-else{
-	agent.targetPlaceForAgent =	getRandomTargetNode();
-}*/
-]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onDiscard]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-					<XCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</XCode>
-					<YCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</YCode>
-					<ZCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ZCode>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LatitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LatitudeCode>
-					<LongitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LongitudeCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
-					<Id>1705534744000</Id>
-					<Name><![CDATA[sink]]></Name>
-					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>5798</X><Y>1442</Y>
-					<Label><X>-10</X><Y>-20</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Sink]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[Sink]]></ClassName>
-							<ItemName><![CDATA[1412336242929]]></ItemName>
-						</GenericParameterSubstituteReference>
-						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Task]]></Code>
-						</GenericParameterSubstituteValue>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[//dataset.add(self.count(), (date().getTime() - agent.dateCreate.getTime())/1000);]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destroyEntity]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-					<XCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</XCode>
-					<YCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</YCode>
-					<ZCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ZCode>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LatitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LatitudeCode>
-					<LongitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LongitudeCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
-					<Id>1705534744006</Id>
-					<Name><![CDATA[blockOptCrane]]></Name>
-					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>5683</X><Y>1432</Y>
-					<Label><X>-40</X><Y>-15</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[cranetest]]></PackageName>
-						<ClassName><![CDATA[BlockOptCrane]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[cranetest]]></PackageName>
-							<ClassName><![CDATA[BlockOptCrane]]></ClassName>
-							<ItemName><![CDATA[1698394537298]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[cranes]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[cranes]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[targetPlace]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[self.agent().targetPlaceForAgent]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[respCranesZones]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[respCranesZones]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[targetPlaceType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[minSafeHeight]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[8]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[isStartOffset]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[offsetConveyor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[levelOrNetwork]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[levelForAgent]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[networkForAgent]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[agentX]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[agentY]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[agentZ]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[isOnlyMyZone]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[agent]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InEnvironment>true</InEnvironment>	
-					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-					<XCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</XCode>
-					<YCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</YCode>
-					<ZCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ZCode>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LatitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LatitudeCode>
-					<LongitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LongitudeCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
 					<Id>1705537628295</Id>
 					<Name><![CDATA[moveByCraneToAgent2]]></Name>
 					<X>5680</X><Y>1130</Y>
@@ -6534,7 +5993,7 @@ incomeTranscar.get(0).statechart.fireEvent("FULLED");]]></Code>
 					<LineMaterial>null</LineMaterial>
 					<LineStyle>SOLID</LineStyle>
 					<Width>572</Width>
-					<Height>184.6</Height>
+					<Height>359</Height>
 					<Rotation>0.0</Rotation>
 					<FillColor>-657931</FillColor>
 					<FillMaterial>null</FillMaterial>
@@ -6589,7 +6048,7 @@ incomeTranscar.get(0).statechart.fireEvent("FULLED");]]></Code>
 				<Text>
 					<Id>1702687122423</Id>
 					<Name><![CDATA[text233]]></Name>
-					<X>1510</X><Y>230</Y>
+					<X>1510</X><Y>260</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6599,7 +6058,7 @@ incomeTranscar.get(0).statechart.fireEvent("FULLED");]]></Code>
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
-					<Text><![CDATA[Числа месяца выплаты з/п]]></Text>
+					<Text><![CDATA[Коэффициент эффективного использования оборудования]]></Text>
 					<Font>
 						<Name>Arial</Name>
 						<Size>12</Size>
@@ -6610,7 +6069,7 @@ incomeTranscar.get(0).statechart.fireEvent("FULLED");]]></Code>
 				<Text>
 					<Id>1702687122448</Id>
 					<Name><![CDATA[text210]]></Name>
-					<X>1853</X><Y>197</Y>
+					<X>1993</X><Y>227</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6620,7 +6079,7 @@ incomeTranscar.get(0).statechart.fireEvent("FULLED");]]></Code>
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
-					<Text><![CDATA[раз(а)]]></Text>
+					<Text><![CDATA[мин.]]></Text>
 					<Font>
 						<Name>Arial</Name>
 						<Size>12</Size>
@@ -6631,7 +6090,7 @@ incomeTranscar.get(0).statechart.fireEvent("FULLED");]]></Code>
 				<Text>
 					<Id>1702687122520</Id>
 					<Name><![CDATA[text220]]></Name>
-					<X>1510</X><Y>200</Y>
+					<X>1510</X><Y>230</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6641,7 +6100,7 @@ incomeTranscar.get(0).statechart.fireEvent("FULLED");]]></Code>
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
-					<Text><![CDATA[Сколько раз в месяц выплата з/п]]></Text>
+					<Text><![CDATA[Длительность первой плавки после ППР]]></Text>
 					<Font>
 						<Name>Arial</Name>
 						<Size>12</Size>
@@ -6782,7 +6241,7 @@ incomeTranscar.get(0).statechart.fireEvent("FULLED");]]></Code>
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
 					<Id>1702687122729</Id>
 					<Name><![CDATA[editboxTrain_max_length_wagons_rjd]]></Name>
-					<X>1741</X><Y>197</Y>
+					<X>1881</X><Y>227</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6869,7 +6328,7 @@ incomeTranscar.get(0).statechart.fireEvent("FULLED");]]></Code>
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
 					<Id>1702687122864</Id>
 					<Name><![CDATA[checkbox2]]></Name>
-					<X>1506</X><Y>250</Y>
+					<X>1510</X><Y>280</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6882,7 +6341,7 @@ incomeTranscar.get(0).statechart.fireEvent("FULLED");]]></Code>
 					</BasicProperties>
 					<ExtendedProperties>
 						<Font Name="Arial" Size="12" Style="0"/>
-						<LabelText><![CDATA[Использовать как основной доход]]></LabelText>
+						<LabelText><![CDATA[Проведение ППР]]></LabelText>
 						<LinkTo>true</LinkTo>
 						<Link>main_revenue</Link>
 	 				</ExtendedProperties>
@@ -7044,7 +6503,7 @@ incomeTranscar.get(0).statechart.fireEvent("FULLED");]]></Code>
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
-					<Text><![CDATA[Данные по доходам]]></Text>
+					<Text><![CDATA[Агрегаты "Печь"]]></Text>
 					<Font>
 						<Name>Arial</Name>
 						<Size>12</Size>
@@ -7582,7 +7041,7 @@ roundRectangle113.setFillColor(new Color(252, 181, 59));
 				<Text>
 					<Id>1702687487622</Id>
 					<Name><![CDATA[text239]]></Name>
-					<X>1510</X><Y>170</Y>
+					<X>1510</X><Y>200</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7592,7 +7051,7 @@ roundRectangle113.setFillColor(new Color(252, 181, 59));
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
-					<Text><![CDATA[Уровень заработной платы, gross]]></Text>
+					<Text><![CDATA[Цикл плавки]]></Text>
 					<Font>
 						<Name>Arial</Name>
 						<Size>12</Size>
@@ -7604,7 +7063,7 @@ roundRectangle113.setFillColor(new Color(252, 181, 59));
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
 					<Id>1702687487647</Id>
 					<Name><![CDATA[editboxTrain_max_weight_rjd3]]></Name>
-					<X>1740</X><Y>167</Y>
+					<X>1880</X><Y>197</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7626,7 +7085,7 @@ roundRectangle113.setFillColor(new Color(252, 181, 59));
 				<Text>
 					<Id>1702687487660</Id>
 					<Name><![CDATA[text211]]></Name>
-					<X>1852</X><Y>168</Y>
+					<X>1992</X><Y>198</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7636,7 +7095,7 @@ roundRectangle113.setFillColor(new Color(252, 181, 59));
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
-					<Text><![CDATA[руб.]]></Text>
+					<Text><![CDATA[мин.]]></Text>
 					<Font>
 						<Name>Arial</Name>
 						<Size>12</Size>
@@ -7647,7 +7106,7 @@ roundRectangle113.setFillColor(new Color(252, 181, 59));
 				<Text>
 					<Id>1702687786533</Id>
 					<Name><![CDATA[text216]]></Name>
-					<X>1853</X><Y>228</Y>
+					<X>1993</X><Y>258</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7657,7 +7116,7 @@ roundRectangle113.setFillColor(new Color(252, 181, 59));
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
-					<Text><![CDATA[через запятую]]></Text>
+					<Text><![CDATA[коэфф.]]></Text>
 					<Font>
 						<Name>Arial</Name>
 						<Size>12</Size>
@@ -7669,7 +7128,7 @@ roundRectangle113.setFillColor(new Color(252, 181, 59));
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
 					<Id>1702687786542</Id>
 					<Name><![CDATA[editboxTrain_max_length_wagons_rjd1]]></Name>
-					<X>1741</X><Y>228</Y>
+					<X>1881</X><Y>258</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8390,7 +7849,7 @@ changeLastDay();]]></ActionCode>
 					<Font>
 						<Name>Arial</Name>
 						<Size>20</Size>
-						<Style>0</Style>
+						<Style>1</Style>
 					</Font>
 					<Alignment>LEFT</Alignment>
 				</Text>
@@ -8687,7 +8146,7 @@ thread.start();*/]]></OnClickCode>
 				<Image>
 					<Id>1702681811683</Id>
 					<Name><![CDATA[imageLoader]]></Name>
-					<X>712</X><Y>13</Y>
+					<X>720</X><Y>-40</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8711,6 +8170,70 @@ thread.start();*/]]></OnClickCode>
 					</ImageFiles>
 					<OriginalSize>false</OriginalSize>
 				</Image>
+				<Group>
+					<Id>1705355520820</Id>
+					<Name><![CDATA[btn_map2]]></Name>
+					<X>477</X><Y>20</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>-2</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<RoundedRectangle>
+					<Id>1705355520822</Id>
+					<Name><![CDATA[roundRectangle14]]></Name>
+					<X>-45</X><Y>-10</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<OnClickCode><![CDATA[navigate(viewPlan);]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-32944</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>80</Width>
+					<Height>20</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>5</ArcRadius>
+				</RoundedRectangle>
+				<Text>
+					<Id>1705355520824</Id>
+					<Name><![CDATA[text43]]></Name>
+					<X>-20</X><Y>-6</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-65536</Color>
+					<ColorCode><![CDATA[selectedViewArea == viewPlan ?
+	black : red]]></ColorCode>
+					<Text><![CDATA[План]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Presentation>
+
+				</Group>
 			</Presentation>
 
 				</Group>
@@ -9617,70 +9140,6 @@ thread.start();*/]]></OnClickCode>
 					<Latitude>0.0</Latitude>
 					<Longitude>0.0</Longitude>
 				</EmbeddedObjectPresentation>
-				<Group>
-					<Id>1705355520820</Id>
-					<Name><![CDATA[btn_map2]]></Name>
-					<X>677</X><Y>20</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>-1</Z>
-					<Rotation>0.0</Rotation>
-
-			<Presentation>
-				<RoundedRectangle>
-					<Id>1705355520822</Id>
-					<Name><![CDATA[roundRectangle14]]></Name>
-					<X>-45</X><Y>-10</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<OnClickCode><![CDATA[navigate(viewPlan);]]></OnClickCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-32944</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>80</Width>
-					<Height>20</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>5</ArcRadius>
-				</RoundedRectangle>
-				<Text>
-					<Id>1705355520824</Id>
-					<Name><![CDATA[text43]]></Name>
-					<X>-20</X><Y>-6</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-65536</Color>
-					<ColorCode><![CDATA[selectedViewArea == viewPlan ?
-	black : red]]></ColorCode>
-					<Text><![CDATA[План]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>10</Size>
-						<Style>1</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
-			</Presentation>
-
-				</Group>
 				<Image>
 					<Id>1705355678784</Id>
 					<Name><![CDATA[imageLoader2]]></Name>
@@ -11909,6 +11368,265 @@ thread.start();*/]]></OnClickCode>
 					<Latitude>0.0</Latitude>
 					<Longitude>0.0</Longitude>
 				</EmbeddedObjectPresentation>
+				<Text>
+					<Id>1705576603363</Id>
+					<Name><![CDATA[text241]]></Name>
+					<X>1510</X><Y>170</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Печь №2 (ЭМК)]]></Text>
+					<Font>
+						<Name>Arial</Name>
+						<Size>14</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1705576754020</Id>
+					<Name><![CDATA[text230]]></Name>
+					<X>1992</X><Y>348</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[мин.]]></Text>
+					<Font>
+						<Name>Arial</Name>
+						<Size>12</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1705576754022</Id>
+					<Name><![CDATA[text232]]></Name>
+					<X>1993</X><Y>408</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[коэфф.]]></Text>
+					<Font>
+						<Name>Arial</Name>
+						<Size>12</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Control Type="EditBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1705576754024</Id>
+					<Name><![CDATA[editboxTrain_max_weight_rjd5]]></Name>
+					<X>1880</X><Y>347</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="101" Height="17">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<FillColor/>
+						<TextColor>-14277082</TextColor>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="GT Eesti Pro Text" Size="11" Style="0"/>
+						<MinValue><![CDATA[15000]]></MinValue>
+						<LinkTo>true</LinkTo>
+						<Link>salary</Link>
+					</ExtendedProperties>
+				</Control>
+				<Text>
+					<Id>1705576754026</Id>
+					<Name><![CDATA[text235]]></Name>
+					<X>1993</X><Y>377</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[мин.]]></Text>
+					<Font>
+						<Name>Arial</Name>
+						<Size>12</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1705576754028</Id>
+					<Name><![CDATA[text242]]></Name>
+					<X>1510</X><Y>380</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Длительность первой плавки после ППР]]></Text>
+					<Font>
+						<Name>Arial</Name>
+						<Size>12</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1705576754030</Id>
+					<Name><![CDATA[text243]]></Name>
+					<X>1510</X><Y>350</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Цикл плавки]]></Text>
+					<Font>
+						<Name>Arial</Name>
+						<Size>12</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Control Type="EditBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1705576754032</Id>
+					<Name><![CDATA[editboxTrain_max_length_wagons_rjd4]]></Name>
+					<X>1881</X><Y>377</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="99" Height="17">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<FillColor/>
+						<TextColor>-14277082</TextColor>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="GT Eesti Pro Text" Size="11" Style="0"/>
+						<MinValue><![CDATA[0]]></MinValue>
+						<LinkTo>true</LinkTo>
+						<Link>train_max_length_wagons_rjd</Link>
+					</ExtendedProperties>
+				</Control>
+				<Text>
+					<Id>1705576754034</Id>
+					<Name><![CDATA[text244]]></Name>
+					<X>1510</X><Y>410</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Коэффициент эффективного использования оборудования]]></Text>
+					<Font>
+						<Name>Arial</Name>
+						<Size>12</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1705576754036</Id>
+					<Name><![CDATA[text245]]></Name>
+					<X>1510</X><Y>320</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Печь №3 (ЛПК-2)]]></Text>
+					<Font>
+						<Name>Arial</Name>
+						<Size>14</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Control Type="EditBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1705576754038</Id>
+					<Name><![CDATA[editboxTrain_max_length_wagons_rjd5]]></Name>
+					<X>1881</X><Y>408</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="99" Height="17">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<FillColor/>
+						<TextColor>-14277082</TextColor>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="GT Eesti Pro Text" Size="11" Style="0"/>
+						<MinValue><![CDATA[0]]></MinValue>
+						<LinkTo>true</LinkTo>
+						<Link>train_max_length_wagons_rjd</Link>
+					</ExtendedProperties>
+				</Control>
+				<Control Type="CheckBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1705576754040</Id>
+					<Name><![CDATA[checkbox4]]></Name>
+					<X>1510</X><Y>430</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="278" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<TextColor/>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Arial" Size="12" Style="0"/>
+						<LabelText><![CDATA[Проведение ППР]]></LabelText>
+						<LinkTo>true</LinkTo>
+						<Link>main_revenue</Link>
+	 				</ExtendedProperties>
+				</Control>
 			</Presentation>
 
 				</Level>
@@ -20586,12 +20304,6 @@ public class Logger implements Serializable {
 		<VersionMajor>8</VersionMajor>
 		<VersionMinor>0</VersionMinor>
 		<VersionBuild>5</VersionBuild>
-    </RequiredLibraryReference>
-    <RequiredLibraryReference>
-		<LibraryName><![CDATA[cranetest]]></LibraryName>
-		<VersionMajor>0</VersionMajor>
-		<VersionMinor>0</VersionMinor>
-		<VersionBuild>0</VersionBuild>
     </RequiredLibraryReference>
 </Model>
 </AnyLogicWorkspace>
